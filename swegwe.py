@@ -1,3 +1,3 @@
 n=input()
-print(''.join(reversed(n)))
-
+if n<100000:
+    print(''.join(reversed(n)))
